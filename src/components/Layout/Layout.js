@@ -9,7 +9,7 @@ const layout = ( props ) => (
   <Aux>
     <div>
       <Toolbar />
-      SideDrawer, Backdrop
+      <SideDrawer/>
     </div>
     <main className={classes.Content}>
       {props.children}
