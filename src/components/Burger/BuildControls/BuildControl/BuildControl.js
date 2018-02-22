@@ -4,7 +4,7 @@ import classes from './BuildControl.css';
 
 const buildControl = (props) => (
   <div className={classes.BuildControl}>
-    <div className={classes.Label}>{props.label}</div>
+    <div className={classes.Label}>{props.label}: ${props.price.toFixed(2)}</div>
     <button 
       className={classes.Less} 
       onClick={props.removed} 
